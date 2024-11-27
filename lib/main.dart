@@ -33,6 +33,10 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       darkTheme: ThemeData(
+        appBarTheme: const AppBarTheme(
+            surfaceTintColor: Colors.transparent,
+            color: Colors.transparent
+        ),
         fontFamily: GoogleFonts.poppins().fontFamily,
         colorScheme: ColorScheme.fromSeed(
             seedColor: Colors.blue,
